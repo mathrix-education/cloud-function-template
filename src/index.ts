@@ -21,7 +21,9 @@ if (process.env.SENTRY_DSN) {
  * @param data
  */
 async function main(data): Promise<number> {
-  return 0;
+  return new Promise(
+    resolve => resolve(0),
+  );
 }
 
 /**
